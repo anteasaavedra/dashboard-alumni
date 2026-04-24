@@ -1,20 +1,11 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Dashboard Alumni CRTIC
 
-# Run and deploy your AI Studio app
+Dashboard para visualización y filtrado de estudiantes de CRTIC.
 
-This contains everything you need to run your app locally.
+## Despliegue
 
-View your app in AI Studio: https://ai.studio/apps/73e83ef6-e681-4baa-bb4e-033029041480
+Este proyecto está configurado para desplegarse automáticamente en GitHub Pages mediante GitHub Actions.
 
-## Run Locally
-
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Si ves una página de instrucciones en lugar del dashboard, por favor:
+1. Revisa la pestaña **Actions** en tu repositorio de GitHub para ver si el despliegue terminó con éxito.
+2. Asegúrate de haber sincronizado los últimos cambios desde AI Studio.
